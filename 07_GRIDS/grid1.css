@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+div{
+background-color: darkred;
+margin: 1px;
+color: white;
+}
+
+
+body{
+    display: grid;
+    height: 100vh;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-template-columns: 3fr 4fr 2fr 3fr;
+    grid-template-areas:
+    "a   a    e  e" 
+    "c   d    d   b"
+
+    ;
+}
+
+
+
+#a{
+    grid-area: a;
+    background: url(images/heat.jpg);
+    background-size: cover;
+}
+
+#b{
+    grid-area: b;
+    background: url(images/bankjob.jpg);
+    background-size: cover;
+}
+
+#c{
+    grid-area: c;
+    background: url(images/insideman.jpg);
+    background-size: cover;
+}
+
+#d{
+    grid-area: d;
+    background: url(images/rififi.jpg);
+    background-size: cover;
+}
+
+#e{
+    grid-area: e;
+    background: url(images/usualsuspects.jpg);
+    background-size: cover;
+}

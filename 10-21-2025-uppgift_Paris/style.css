@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+
+body{
+    display: grid;
+    height: 100vh;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-areas: 
+    "a   b   c"
+    "d   .   e"
+    "f   g   h"
+    "i   k   k"
+    "j   k   k";
+
+}
+
+
+#a{
+    background-image: url(images/a.jpg);
+    grid-area: a;
+    background-size: cover;
+    
+}
+
+#b{
+    background-image: url(images/b.webp);
+    grid-area: b;
+    background-size: cover;
+    
+}
+
+#c{
+    background-image: url(images/c.jpg);
+    grid-area: c;
+    background-size: cover;
+    border-top-right-radius: 20%;
+    
+}
+
+#d{
+    background-image: url(images/d.jpg);
+    grid-area: d;
+    background-size: cover;
+}
+
+#e{
+    background-image: url(images/e.jpg);
+    grid-area: e;
+    background-size: cover;
+    
+}
+
+#f{
+    background-image: url(images/f.jpg);
+    grid-area: f;
+    background-size: cover;
+    
+}
+
+#g{
+    background-image: url(images/g.webp);
+    grid-area: g;
+    background-size: cover;
+    
+}
+
+#h{
+    background-image: url(images/h.jpg);
+    grid-area: h;
+    background-size: cover;
+    border-bottom-right-radius: 20%;
+    
+}
+
+#i{
+    background-image: url(images/i.jpg);
+    grid-area: i;
+    background-size: cover;
+    
+}
+
+#j{
+    background-image: url(images/j.jpg);
+    grid-area: j;
+    background-size: cover;
+    
+}
+
+#k{
+    grid-area: k;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 40px;
+    margin: 50px 0 0 20px;
+}
+
