@@ -3,7 +3,7 @@
 
 
 body{
-    background-image: url(/slutprojekt-2026-03-04-SpelInformationsida/images/imagebackground.png);
+    background-image: url(../style/populargames.css);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
