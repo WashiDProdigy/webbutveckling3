@@ -3,7 +3,7 @@
 
 
 body{
-    background-image: url(/images/imagebackground.png);
+    background-image: url(/slutprojekt-2026-03-04-SpelInformationsida/images/imagebackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -25,70 +25,70 @@ footer{
 }
 
 .CSGO{
-    background-image:url(/images/CSGO.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/CSGO.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .MC{
-    background-image:url(/images/minecraft.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/minecraft.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .RBLX{
-    background-image:url(/images/roblox.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/roblox.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .FN{
-    background-image:url(/images/fortnite.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/fortnite.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .LOL{
-    background-image:url(/images/lol.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/lol.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .TS4{
-    background-image:url(/images/sims4.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/sims4.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .OW{
-    background-image:url(/images/overwatch.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/overwatch.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .VAL{
-    background-image:url(/images/valorant.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/valorant.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .RL{
-    background-image:url(/images/rocket.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/rocket.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;
     
 }
 .D2{
-    background-image:url(/images/dota.png) ;
+    background-image:url(/slutprojekt-2026-03-04-SpelInformationsida/images/dota.png) ;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: bold;

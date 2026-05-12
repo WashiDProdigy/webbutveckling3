@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 
-
 body{
-    background-image: url(/images/imagebackground.png);
+    background-image: url(images/imagebackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
