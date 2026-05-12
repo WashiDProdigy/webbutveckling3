@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-image: url(/images/imagebackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(20, 20, 20, 0.932);
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgba(53, 51, 51, 0.712);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+.CSGO{
+    background-image:url(/images/CSGO.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.MC{
+    background-image:url(/images/minecraft.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.RBLX{
+    background-image:url(/images/roblox.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.FN{
+    background-image:url(/images/fortnite.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.LOL{
+    background-image:url(/images/lol.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.TS4{
+    background-image:url(/images/sims4.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.OW{
+    background-image:url(/images/overwatch.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.VAL{
+    background-image:url(/images/valorant.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.RL{
+    background-image:url(/images/rocket.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.D2{
+    background-image:url(/images/dota.png) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(50, 63, 78, 0.45);
+    position: fixed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 0;
+    width: 100%;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    text-shadow: 5px 5px 5px black;
+}
+
+header p{
+    flex: 7px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+#PZ{
+    padding: 1px;
+    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 190px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    align-items: center ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(57, 41, 33, 0.548);  
+    border-radius: 20px;
+    display: inline-flex;
+    margin-bottom: 310px;
+    
+}
+
+
+
+h1{
+    display: inline-flex;
+}
+
+
+
+#PZdesc{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+
+
+p{
+    display: flex;
+    display: inline-block;
+}
+
+#Play{
+    color: white;
+
+}
+
+#Zone{
+    color: rgb(255, 0, 0);
+
+}
+
+#play{
+    color: white;
+}
+
+
+
+#zone{
+    color: rgb(255, 0, 0);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* ===== Mobil ===== */
+@media (max-width: 768px) {
+  
+.menu-toggle {
+    display: block;
+}
+  
+.menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background:  rgba(50, 63, 78, 0.45);
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+  
+.menu a {
+    text-align: center;
+    padding: 1rem 0;
+}
+  
+.menu.active {
+    max-height: 300px; 
+} 
+
+#PZ {
+    margin: 120px auto 0 auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #PZ {
+    margin: 180px auto 0 auto;
+    width: 92%;
+    max-width: 520px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 420px;
+  }
+
+  #PZ h1 {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  #PZdesc {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+}
+
